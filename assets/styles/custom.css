@@ -1,0 +1,106 @@
+body {
+    font-family: arial;
+    background-color: rgb(243, 241, 241); 
+  }
+  
+  .container {
+    margin: 0 auto; /* centralizando o conteudo no browser */
+    width: 1000px; /* medida fixa */
+  }
+  header h1 {
+    font-size: 3em; /* medida relativa */
+    color: #333;
+    padding: 10px;
+  }
+  
+  header h3 {
+    font-size: 1.5em;
+    color: rgb(114, 108, 108);
+    padding: 20px; /* espaçamento interno do elemento */
+  }
+  
+  .country {
+    width: 31%; /* medida relativa */
+    height: 200px;  /* medida fixa */
+    float: left;  /* flutuando minha caixas  */
+    margin: 10px; /* espaçamento externo das divs */
+    -webkit-filter:grayscale(0%);
+
+  }
+  
+  .country:hover {
+    cursor: pointer;
+    background: aquamarine;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out
+    
+  }
+  
+  
+  .country p {
+    font-size: 20px;
+    text-align: center;
+    text-transform:;
+    line-height: 7 ;
+    font-weight: bolder;
+    color: whitesmoke;
+    letter-spacing: 4px;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black,
+
+    0 0 0.2em black; 
+  }
+  
+  .clearfix {
+    clear: both; /* fazendo um reset na nossa flutuação */
+  }
+  
+  .bg-brazil {
+    background-image: url('../images/brazil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-mexico {
+    background-image: url('../images/mexico.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-frança {
+    background-image: url('../images/frança.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-africa {
+    background-image: url('../images/africa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-japão {
+    background-image: url('../images/japão.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-noruega {
+    background-image: url('../images/noruega.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  footer {
+    margin-top: 20px;
+    height: 60px;
+    background-color: #333;
+  
+  }
+  
+  footer p {
+    line-height: 4;
+    text-align: center;
+    color: #eee;
+  }
